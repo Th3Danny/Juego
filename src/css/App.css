@@ -1,0 +1,88 @@
+body{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 10%;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('background-image.jpg'); /* Cambia 'background-image.jpg' por la URL de tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.end-message {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  color: #fff; /* Color del texto */
+  font-size: 1.2em;
+}
+
+/* Estilos para el botón "Jugar de nuevo" en el mensaje de finalización */
+.end-message button {
+  background-color: #FF4500; /* Color de fondo en naranja oscuro */
+  color: #fff; /* Color del texto en blanco */
+  font-size: 1em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.end-message button:hover {
+  background-color: #FF5722; /* Cambio de color al pasar el ratón por encima */
+}
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('background-image.jpg'); /* Cambia 'background-image.jpg' por la URL de tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.end-message {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  color: #fff; /* Color del texto */
+  font-size: 1.2em;
+}
+
+/* Estilos para el botón "Jugar de nuevo" en el mensaje de finalización */
+.end-message button {
+  background-color: #FF4500; /* Color de fondo en naranja oscuro */
+  color: #fff; /* Color del texto en blanco */
+  font-size: 1em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.end-message button:hover {
+  background-color: #FF5722; /* Cambio de color al pasar el ratón por encima */
+}
+
+.win,.lose{
+  color: #fff;
+}
